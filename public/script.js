@@ -50,28 +50,28 @@ $(document).ready(() => {
 
 
     //select the input
-    $( ".first" )
+    $( ".word1" )
     .keyup(function() {
       var value = $( this ).val();
       $( ".word1" ).text(words[0]);
     })
     .keyup();
 
-    $( ".second" )
+    $( ".word2" )
     .keyup(function() {
       var value = $( this ).val();
       $( ".word2" ).text(words[1]);
     })
     .keyup();
 
-    $( ".third" )
+    $( ".word3" )
     .keyup(function() {
       var value = $( this ).val();
       $( ".word3" ).text(words[2]);
     })
     .keyup();
 
-    $( ".fourth" )
+    $( ".word4" )
     .keyup(function() {
       var value = $( this ).val();
       $( ".word4" ).text(words[3]);
