@@ -1,0 +1,68 @@
+/*-------------------------------------------------*/
+/* BASIC SETUP */
+/*-------------------------------------------------*/
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html,
+body
+{
+  background-color: #1BA39C;
+  color: #333;
+  font-family: Roboto, serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+.clearfix { zoom: 1}
+.clearfix:after
+{
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+/*-------------------------------------------------*/
+/* OTHER ELEMENTS */
+/*-------------------------------------------------*/
+
+
+.red {
+  color: #EA4444;
+}
+
+.dot {
+  font-size: 240%;
+}
+
+.sentence {
+  font-size: 320%;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  display: table-row;
+}
+
+li {
+  display: table-cell;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+input {
+  width: 20%;
+  height: 50px;
+  margin-top: 30px;
+}
