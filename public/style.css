@@ -137,6 +137,8 @@ h1 {
 ul {
   list-style: none;
   display: table-row;
+  margin-top: 40vh;
+  list-style-position: inside;
 }
 
 li {
