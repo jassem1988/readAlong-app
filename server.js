@@ -18,8 +18,6 @@ app.get('/main', (req, res) => {
   res.render('index.hbs');
 });
 
-
-
 app.listen(port, () => {
   console.log(`Server is up on port ${port}`);
 });
