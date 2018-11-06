@@ -10,12 +10,12 @@ $(document).ready(() => {
 
     for(var i = 0; i < words.length; i++) {
       //append li elements
-      $('.sentence').append(`<li class="${words[i]}">${words[i]}</li>`);
+      $('.sentence').append(`<li class="${words[i]}i">${words[i]}</li>`);
 
-      $( `${words[i]}` )
+      $( `${words[i]}i` )
       .keyup(function() {
         var value = $( this ).val();
-        $( `.${words[i]}` ).text(words[i]);
+        $( `.${words[i]}i` ).text(words[i]);
       })
       .keyup();
 
