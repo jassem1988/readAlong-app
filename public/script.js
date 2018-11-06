@@ -1,6 +1,7 @@
 var sentence = prompt("Enter the sentence you want to read along");
 var words = sentence.split(' ');
 
+
 /////////////////////
 //jQuery
 
@@ -20,12 +21,14 @@ $(document).ready(() => {
       .keyup();
 
       //append i elements
+
       $('.dots').append(`<li><i class="dot dot1${words[i]} far fa-hand-pointer"></i></li>`);
 
       //add on Click event 
       $(`.dot1${words[i]}`).on('click', function() {
         $(this).toggleClass('red');
       });
+
 
     }
 
