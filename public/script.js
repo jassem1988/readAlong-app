@@ -20,10 +20,10 @@ $(document).ready(() => {
       .keyup();
 
       //append i elements
-      $('.dots').append(`<li><i class="dot dot1${words[i]} far fa-hand-pointer"></i></li>`);
+      $('.dots').append(`<li><i class="dot dot${i}${words[i]} far fa-hand-pointer"></i></li>`);
 
       //add on Click event
-      $(`.dot1${words[i]}`).on('click', function() {
+      $(`.dot${i}${words[i]}`).on('click', function() {
         $(this).toggleClass('pointer');
       });
     }
