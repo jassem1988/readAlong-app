@@ -1,3 +1,6 @@
+var sentence = prompt("Enter the sentence you want to read along");
+var words = sentence.split(' ');
+
 var word1 = document.querySelectorAll('.dot1');
 var word2 = document.querySelectorAll('.dot2');
 var word3 = document.querySelectorAll('.dot3');
@@ -45,34 +48,38 @@ word5.forEach (function (element) {
 
 $(document).ready(() => {
 
-  //select the input
-  $( ".first" )
-  .keyup(function() {
-    var value = $( this ).val();
-    $( ".word1" ).text( value );
-  })
-  .keyup();
 
-  $( ".second" )
-  .keyup(function() {
-    var value = $( this ).val();
-    $( ".word2" ).text( value );
-  })
-  .keyup();
+    //select the input
+    $( ".first" )
+    .keyup(function() {
+      var value = $( this ).val();
+      $( ".word1" ).text(words[0]);
+    })
+    .keyup();
 
-  $( ".third" )
-  .keyup(function() {
-    var value = $( this ).val();
-    $( ".word3" ).text( value );
-  })
-  .keyup();
+    $( ".second" )
+    .keyup(function() {
+      var value = $( this ).val();
+      $( ".word2" ).text(words[1]);
+    })
+    .keyup();
 
-  $( ".fourth" )
-  .keyup(function() {
-    var value = $( this ).val();
-    $( ".word4" ).text( value );
-  })
-  .keyup();
+    $( ".third" )
+    .keyup(function() {
+      var value = $( this ).val();
+      $( ".word3" ).text(words[2]);
+    })
+    .keyup();
+
+    $( ".fourth" )
+    .keyup(function() {
+      var value = $( this ).val();
+      $( ".word4" ).text(words[3]);
+    })
+    .keyup();
+
+
+
 
 
   //select all span elements
@@ -80,9 +87,6 @@ $(document).ready(() => {
     textDecoration: 'underline',
     background: 'gray'
   };
-
-
-
 
 
 });
