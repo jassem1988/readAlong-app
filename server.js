@@ -11,11 +11,11 @@ hbs.registerPartials(__dirname + '/views/partials'); //Let hbs use partials
 app.set('view engine', 'hbs');
 
 app.get('/', (req, res) => {
-  res.render('index.hbs');
+  res.render('landing.hbs');
 });
 
 app.get('/main', (req, res) => {
-  res.render('main.hbs');
+  res.render('index.hbs');
 });
 
 
