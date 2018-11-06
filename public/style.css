@@ -13,7 +13,7 @@
 html,
 body
 {
-  background-color: #1BA39C;
+  background-color: #aaf1ed;
   color: #333;
   font-family: Roboto, serif;
   font-weight: 300;
@@ -120,15 +120,24 @@ h1 {
 /* MAIN PAGE */
 /*-------------------------------------------------*/
 
-.main-img {
-  display: block;
-  height: 400px;
+.main-h1 {
+  font-size: 400%;
   margin: 0 auto;
   margin-top: 20px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+
 }
 
-.red {
-  color: #EA4444;
+.main-img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 12px;
+}
+
+.pointer {
+  color: #ab53c7;
 }
 
 .dot {

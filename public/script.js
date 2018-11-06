@@ -24,9 +24,9 @@ $(document).ready(() => {
 
       $('.dots').append(`<li><i class="dot dot1${words[i]} far fa-hand-pointer"></i></li>`);
 
-      //add on Click event 
+      //add on Click event
       $(`.dot1${words[i]}`).on('click', function() {
-        $(this).toggleClass('red');
+        $(this).toggleClass('pointer');
       });
 
 
