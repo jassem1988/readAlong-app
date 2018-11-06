@@ -120,6 +120,12 @@ h1 {
 /* MAIN PAGE */
 /*-------------------------------------------------*/
 
+.main-img {
+  display: block;
+  height: 400px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
 
 .red {
   color: #EA4444;
