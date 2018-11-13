@@ -1,7 +1,7 @@
 const express = require('express'),
       hbs     = require('hbs');
 
-const port = process.env.PORT || 3000; //to connect to heroku OR locol host
+const port = process.env.PORT || 4000; //to connect to heroku OR locol host
 
 var app = express();
 

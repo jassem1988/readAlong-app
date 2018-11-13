@@ -1,6 +1,8 @@
 // split the promt to an Array
 var sentence = prompt("Enter the sentence you want to read along");
 var words = sentence.split(' ');
+// words = $.trim(words); //one letter at a time
+
 
 /////////////////////
 //jQuery
